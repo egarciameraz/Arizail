@@ -10,28 +10,16 @@
 body
 {
 	background-color: white;
-  	background-image: linear-gradient(to bottom, #ffffff, #ffffff); 
+  	background-image: linear-gradient(to bottom right, #00ffff, #cc00ff);
   	height: 100%;
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: Helvetica;
     font-weight: lighter;
+    color: black;
 }
-.logo
-{
-	height: 50px;
-	width: 50px;
-	float: left;
-}
-.logo p
-{
-	font-family: Times, Times New Roman;
-	text-align: center;
-	font-size: 50px;
-	margin:0;
-	color: #000000;
-}
+
 .banner p
 {
 	text-align: center;
@@ -58,33 +46,94 @@ body
 	color:#0033aa;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .nav
 {
-	background-color: #999999;
-  	/*background-image: linear-gradient(to left, #ffffff, #00cc00); */
+  	height: 75px;
 
-  	margin-top: 0px;
-
+}
+.nav ul
+{
+	padding-left: 0px;
+	height: 75px;
 }
 .nav li
 {
 	font-size: 20px;
 	display:inline-block;
-	margin-top: auto;
-	margin-bottom: auto;
+	height: 75px;
+	float: left;
+	
 }
 .nav a:hover
 {
-	color: #ffffff;
+	color: black;
+	background-color: rgba(255,255,255,.75);
+
 }
 .nav li a
 {
 	display: block;
 	text-align: center;
 	text-decoration: none;
-	color: black;
-	padding:15px 15px;
+	color: black;	
 }
+.navPadding a
+{
+
+	padding: 26px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .content p
 {
