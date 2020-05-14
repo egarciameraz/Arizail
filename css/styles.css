@@ -38,34 +38,11 @@ body
 	text-align: center;
 	height: 90px;
 	padding-top: 10px;
-
 }
-
 .footer a
 {
 	color:#0033aa;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .nav
 {
@@ -79,17 +56,16 @@ body
 }
 .nav li
 {
-	font-size: 20px;
+	font-size: 23px;
 	display:inline-block;
 	height: 75px;
 	float: left;
 	
 }
-.nav a:hover
+.navPadsding a:hover
 {
 	color: black;
-	background-color: rgba(255,255,255,.75);
-
+	background-color: rgba(255,255,255,.6);
 }
 .nav li a
 {
@@ -101,39 +77,8 @@ body
 .navPadding a
 {
 
-	padding: 26px 10px;
+	padding: 26px 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .content p
 {
@@ -150,4 +95,15 @@ body
 	float: right;
 	margin: 20px;
 	margin-top: 0px;
+}
+.contentPages
+{
+	width: 975px;
+
+}
+.contentPages h1
+{
+	text-align: center;
+	font-size: 50px;
+	
 }
