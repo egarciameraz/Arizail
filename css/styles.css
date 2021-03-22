@@ -2,32 +2,21 @@
 {
 	width:975px;
 	background-color: ;
-	
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 45px;
+	margin-top: 0px;
 }
 body
 {
 	background-color: white;
-  	background-image: linear-gradient(to bottom right, #00ffff, #cc00ff);
+  	/*background-image: linear-gradient(to bottom right, #00ffff, #cc00ff);*/
   	height: 100%;
     margin: 0;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    font-family: Helvetica;
-    font-weight: lighter;
+	font-family: Arial, Helvetica, sans-serif;
     color: black;
 }
 
-.banner p
-{
-	text-align: center;
-	font-weight: lighter;
-	font-size: 3em;
-	border-style: solid;
-	border-width: 1px;
-}
+
 .footer
 {
 	/* position: fixed;*/
@@ -46,64 +35,70 @@ body
 
 .nav
 {
-  	height: 75px;
-
+	overflow: hidden;
+	background-color: #333;
 }
-.nav ul
+.blackbar
 {
-	padding-left: 0px;
-	height: 75px;
-}
-.nav li
-{
-	font-size: 23px;
-	display:inline-block;
-	height: 75px;
-	float: left;
-	
-}
-.navPadsding a:hover
-{
+	height: 35px;
 	color: black;
-	background-color: rgba(255,255,255,.6);
+	float: left;
+	width: 100%;
+
 }
-.nav li a
+
+.nav a
 {
-	display: block;
-	text-align: center;
+	float: left;
+      font-size: 16px;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+}
+
+.dropdown {
+	float: left;
+	overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+	font-size: 16px;  
+	border: none;
+	outline: none;
+	color: white;
+	padding: 14px 16px;
+	background-color: inherit;
+	font-family: inherit;
+	margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+	background-color: red;
+  }
+  
+  .dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+  }
+  
+  .dropdown-content a {
+	float: none;
+	color: black;
+	padding: 12px 16px;
 	text-decoration: none;
-	color: black;	
-}
-.navPadding a
-{
-
-	padding: 26px 20px;
-}
-
-.content p
-{
-	margin: 20px;
-	font-size: 20px;
-	text-align: justify;
-	line-height: 25px;
-}
-
-.content img
-{
-	border-style: solid;
-	border-width: 1px;
-	float: right;
-	margin: 20px;
-	margin-top: 0px;
-}
-.contentPages
-{
-	width: 975px;
-
-}
-.contentPages h1
-{
-	text-align: center;
-	font-size: 50px;
-	
-}
+	display: block;
+	text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+	background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+	display: block;
+  }
