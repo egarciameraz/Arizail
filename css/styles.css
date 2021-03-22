@@ -20,11 +20,10 @@ body
 {
 	/* position: fixed;*/
 	bottom: 0;
-	height: 40px;
 	background-color: #dddddd;
 	width: 100%;
 	text-align: center;
-	height: 90px;
+	height: 130px;
 	padding-top: 10px;
 }
 .footer a
